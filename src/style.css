@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css?family=Monteserrat:500");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* header */
+header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 8px 5%;
+  margin-bottom: 30px;
+  background-color: #24252a;
+}
+
+header .logo {
+  width: 120px;
+  height: 60px;
+  background-color: #24252a;
+  margin-right: auto;
+}
+
+/* navigation bar */
+li,
+a {
+  margin-left: 4px;
+  font-family: "Monteserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  text-decoration: none;
+  color: white;
+  background-color: #24252a;
+}
+
+.nav-links {
+  list-style: none;
+  background-color: #24252a;
+}
+
+.nav-links li {
+  display: inline-block;
+  padding: 0px 5px;
+  background-color: #24252a;
+}
+
+.nav-links li a {
+  transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover {
+  color: #0088a9;
+}
+
+/* headings */
+h1 {
+  margin: 50px;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 48px;
+  color: #24252a;
+}
+
+/* footer */
+footer {
+  margin-top: auto;
+}
+
+#footer-container {
+  margin-top: 100px;
+  padding-top: 40px;
+  width: 100%;
+  background-color: gainsboro;
+}
+
+footer #col-1 {
+  float: left;
+  width: 33.333%;
+  height: 170px;
+  background-color: gainsboro;
+}
+
+footer .title {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  background-color: gainsboro;
+}
+
+footer #col-1 #officers-names {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  background-color: gainsboro;
+}
+
+footer #col-2 {
+  display: inline-block;
+  align-items: center;
+  width: 33.333%;
+  height: auto;
+  padding-bottom: auto;
+  background-color: gainsboro;
+}
+
+footer #col-2 .pyclub-logo {
+  display: block;
+  margin: auto;
+  width: 130px;
+  height: 130px;
+  background-color: gainsboro;
+}
+
+footer #col-2 p {
+  margin: 20px 0 10px 0;
+  text-indent: 0px;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  color: black;
+  background-color: gainsboro;
+}
+
+footer #col-3 {
+  display: block;
+  float: right;
+  width: 33.333%;
+  height: auto;
+  background-color: gainsboro;
+}
+
+footer #col-3 .title {
+  margin-bottom: 28px;
+}
+
+footer .useful-link {
+  display: block;
+  margin-top: 2%;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  text-decoration: underline;
+  color: black;
+  background-color: gainsboro;
+}
+
+footer .useful-link:hover {
+  color: #0088a9;
+}
