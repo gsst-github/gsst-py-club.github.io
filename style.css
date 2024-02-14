@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 8px 5%;
+  margin-bottom: 30px;
+  background-color: #24252a;
+}
+
+header .logo {
+  width: 80px;
+  height: 48px;
+  background-color: #24252a;
+  margin-right: auto;
+}
+
+/* navigation bar */
+li,
+a {
+  margin-left: 4px;
+  font-family: "Monteserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  text-decoration: none;
+  color: white;
+  background-color: #24252a;
+}
+
+.nav-links {
+  list-style: none;
+  background-color: #24252a;
+}
+
+.nav-links li {
+  display: inline-block;
+  padding: 0px 5px;
+  background-color: #24252a;
+}
+
+.nav-links li a {
+  transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover {
+  color: #0088a9;
+}
