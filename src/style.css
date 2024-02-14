@@ -86,7 +86,7 @@ footer {
 footer #col-1 {
   float: left;
   width: 33.333%;
-  height: 170px;
+  height: 160px;
   background-color: gainsboro;
 }
 
@@ -108,7 +108,7 @@ footer #col-2 {
   display: inline-block;
   align-items: center;
   width: 33.333%;
-  height: auto;
+  height: 160px;
   padding-bottom: auto;
   background-color: gainsboro;
 }
@@ -116,18 +116,8 @@ footer #col-2 {
 footer #col-2 .pyclub-logo {
   display: block;
   margin: auto;
-  width: 130px;
+  width: 180px;
   height: 130px;
-  background-color: gainsboro;
-}
-
-footer #col-2 p {
-  margin: 20px 0 10px 0;
-  text-indent: 0px;
-  text-align: center;
-  font-family: "Open Sans", sans-serif;
-  font-size: 14px;
-  color: black;
   background-color: gainsboro;
 }
 
@@ -135,7 +125,7 @@ footer #col-3 {
   display: block;
   float: right;
   width: 33.333%;
-  height: auto;
+  height: 160px;
   background-color: gainsboro;
 }
 
@@ -156,4 +146,10 @@ footer .useful-link {
 
 footer .useful-link:hover {
   color: #0088a9;
+}
+
+/* students page */
+ul .students-list {
+  background: white;
+  color: black;
 }
